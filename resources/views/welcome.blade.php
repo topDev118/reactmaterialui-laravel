@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/app.css">
     </head>
     <body>
-        <div id="example"></div>
+        <div id="app"></div>
 
 
 

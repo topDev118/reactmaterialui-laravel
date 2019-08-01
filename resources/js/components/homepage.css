@@ -1,0 +1,72 @@
+.homePage{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/img/home-top-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 530px;
+    position: relative;
+    max-width: 100%!important;
+}
+.homeBannerSlogan {
+    color: #fff;
+    font-size: 40px!important;
+    font-weight: 700!important;
+    margin: 0px!important;
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
+    top: 160px;
+    line-height: 45px!important;
+    text-shadow: 2px 3px 3px #000;
+}
+.arrowDown {
+    position: absolute;
+    width: 100%;
+    top: 360px;
+    display: inline-block;
+    text-align: center;
+}
+.loginBtn{
+    float:right;
+    margin-top:40px;
+}
+.requestDemoBtn{
+    margin-left:10px!important;
+}
+
+
+
+
+
+
+
+/*Mobile view*/
+@media(max-width:768px){
+    .homePage{
+        background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/img/home-top-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        height: 530px;
+        position: relative;
+        max-width: 100%!important;
+    } 
+    .homeBannerSlogan {
+        color: #fff;
+        font-size: 40px!important;
+        font-weight: 700!important;
+        margin: 0px!important;
+        text-align: left;
+        text-transform: uppercase;
+        position: absolute;
+        top: 160px;
+        line-height: 45px!important;
+        text-shadow: 2px 3px 3px #000;
+    }
+    .loginBtn{
+        margin-top:0px;
+    }
+    .requestDemoBtn{
+        margin-left:10px!important;
+    }
+}
